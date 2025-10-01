@@ -1,0 +1,48 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+html,body {
+    height: 100%;
+    width: 100%;
+}
+#main {
+    height: 100%; 
+    width: 100%;
+    background-image: url(https://media.istockphoto.com/id/925853760/photo/tailor-art-workshops-for-children-a-girl-sewing-felt-decorations.jpg?s=612x612&w=0&k=20&c=0C1z9Q863Tc6YMTd5axqj1URRcFw113cteNqlSh1YQk=);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+#main h1{
+    font-size: 100px;
+    padding-top: 200px;
+    color: rgb(8, 12, 17);
+}
+#main button{
+    margin-top: 20px;
+    padding: 10px 10px ;
+    height: 60px;
+    width: 200px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 50px;
+    background-color: violet;
+    border: 3px solid rgb(17, 2, 2);
+    font: weight 600px; 
+    
+ }
+
+#main button:hover{
+    background-color: aqua;
+    transform: scale(1.05);
+ }
+ P{
+    font-size: 20PX;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 50PX
+    
+ }
