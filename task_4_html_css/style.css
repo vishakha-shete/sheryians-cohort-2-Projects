@@ -1,0 +1,122 @@
+@font-face {
+    font-family: apple;
+    src: url(./sf-pro-display_regular.woff2);
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: apple;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#nav {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+h4 {
+    font-size: 100;
+    font-weight: 500;
+    align-items: center;
+    color: rgb(51, 51, 51);
+}
+
+#Apple {
+    height: 800px;
+    width: 100%;
+    background-image: url(https://www.apple.com/in/home/heroes/diwali-2025/images/hero_diwali_2025_endframe__kjxalx8t7ia2_small_2x.jpg);
+    background-size: cover;
+    background-position: center
+
+}
+#Apple h1 {
+    color: rgb(10, 10, 10);
+    font-size: 50px;
+    padding-top: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#Apple h3 {
+    color: rgb(8, 8, 8);
+    font-size: 20px;
+    font-weight: 100;
+    padding-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+
+#Apple button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#hero {
+    height: 600px;
+    width: 100%;
+    background-image: url(https://www.apple.com/v/home/ch/images/heroes/iphone-17-pro/hero_iphone_17_pro__bknyzxfk2agi_medium.jpg);
+    background-size: cover;
+    background-position: center
+}
+
+#hero h1 {
+    color: white;
+    font-size: 55px;
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#hero h3 {
+    color: white;
+    font-size: 30px;
+    font-weight: 100;
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#hero button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    border-radius: 10%;
+    margin: 20px 20px;
+}
+
+#button button {
+    padding: 10px 20px;
+    font-size: 20px;
+    color: black;
+    background-color: rgb(0, 113, 227);
+    border-radius: 30px;
+    border: none;
+    color: white;
+}
