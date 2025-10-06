@@ -1,11 +1,11 @@
-
-BODY{
+BODY {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
     font-weight: 4%;
 }
-.resume{
+
+.resume {
     text-align: center;
     align-items: center;
     align-self: center;
@@ -13,10 +13,13 @@ BODY{
     padding-left: 100px;
     border-radius: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-font-weight: 200%;
-    
+    font-weight: 200%;
+
 }
-#EDUCATON, #project , #box {
+
+#EDUCATON,
+#project,
+#box {
     color: #0f0e0e;
     text-emphasis-color: #0a0a0a;
     background-color: rgb(224, 237, 250);
@@ -25,24 +28,26 @@ font-weight: 200%;
     padding-left: 2%;
     max-width: 400px;
     max-height: 200px;
-    margin: 0 auto; /* This is the key line */
+    margin: 0 auto;
+    /* This is the key line */
     border-radius: 5px;
     padding-top: 10px;
     padding-bottom: 10px;
-  }
-.name{
+}
+
+.name {
     color: #e6dddd;
     text-emphasis-color: #e6dddd;
     background-color: rgb(6, 29, 51);
     height: 100PX;
     text-align: center;
-padding-top: 50PX;
-padding-bottom: 50PX;
-padding-right: 0%;
-padding-left: 0;
+    padding-top: 50PX;
+    padding-bottom: 50PX;
+    padding-right: 0%;
+    padding-left: 0;
 }
 
-#about{
+#about {
 
     background-color: rgb(204, 240, 240);
     text-align: center;
@@ -50,63 +55,72 @@ padding-left: 0;
     -moz-box-align: center;
     padding-right: 100px;
     padding-left: 100px;
-   
+
 }
-#about h2{
+
+#about h2 {
     padding-top: 20px;
     padding-bottom: 0;
 }
-#about p{
+
+#about p {
     padding-bottom: 20px;
 }
 
 
-#EDUCATION{
+#EDUCATION {
     background-color: rgb(166, 215, 235);
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding-right: 100px;
     padding-left: 100px;
-    
+
 }
-#EDUCATION h3{
+
+#EDUCATION h3 {
     padding-top: 20px;
     padding-bottom: 0;
 }
 
-#skills{
-    background-color:rgb(241, 205, 205);
+#skills {
+    background-color: rgb(241, 205, 205);
 
 }
-#skills h3{
-padding-top: 20px;
-padding-bottom: 0;
+
+#skills h3 {
+    padding-top: 20px;
+    padding-bottom: 0;
 }
-#PROJECT{
+
+#PROJECT {
     background-color: rgb(235, 245, 198);
     padding-right: 100px;
     padding-left: 100px;
-    
+
 }
-#PROJECT h3{
+
+#PROJECT h3 {
     padding-top: 20px;
     padding-bottom: 0;
-    }
-#CONTACT-ME{
+}
+
+#CONTACT-ME {
     background-color: rgb(185, 238, 194);
 }
-#CONTACT-ME h3{
+
+#CONTACT-ME h3 {
     padding-top: 20px;
     padding-bottom: 0;
-    }
+}
 
-footer{
+footer {
     color: azure;
     background-color: rgb(6, 29, 51);
     text-align: center;
-height: 50px;
-padding-top: 20px;
-}    
+    height: 50px;
+    padding-top: 20px;
+}
+
 .container {
     max-width: 960px;
     margin: 0 auto;

@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to right, #3e2b3a, #35413b);
+}
+
+#parent {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.card1 {
+    margin-top: 30px;
+    margin-left: 30px;
+    height: 350px;
+    width: 250px;
+    background-color: #40916c;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px rgb(235, 8, 95);
+    flex-wrap: nowrap;
+
+
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    margin-left: 70px;
+    margin-top: 50px;
+    border-radius: 50px;
+    border: solid white;
+    box-shadow: 10px 10px 20px blue;
+}
+
+.card1 h1 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+#card2 {
+    padding-top: 20px;
+    height: 125px;
+    width: 250px;
+    background-color: rgb(164, 235, 240);
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px rgb(67, 196, 110)
+}
+
+
+button {
+    color: #40916c;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color: rgb(164, 235, 240);
+}
+
+#card2 p {
+    text-align: center;
+    padding-top: 10px;
+}
