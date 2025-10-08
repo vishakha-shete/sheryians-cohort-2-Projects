@@ -1,0 +1,156 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(233, 230, 227);
+
+}
+#nav{
+     width: 100%;
+     height: 40px;
+     background-color: rgb(233, 230, 227);
+     display: flex;
+     gap: 30px;
+}
+#nav h1{
+
+      padding: 10px 30px;
+      font-size: 30px;
+      display: flex;
+      align-items: center;
+
+}
+#nav a{
+    color: black;
+    font-weight: 500%;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+
+}
+#nav button{
+    display: flex;
+    align-items: center;
+    justify-self: end;
+    background-color: blueviolet;
+    border-radius: 10px;
+    
+}
+#hero{
+    width: 100%;
+    height: 100%;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+#hero video{
+    height: 500px;
+    width: 600px;
+    border-radius: 15%;
+    position: absolute;
+    left: 50%;
+   
+
+}
+#hero h2{
+    width: 30%;
+    font-size: 50px;
+padding: 30px;
+bottom: 50%;
+
+}
+#hero p{
+    width: 30%;
+    font-size: 20px;
+    align-items: start;
+
+}
+#hero button{
+    margin-top: 20px;
+    color: black;
+    padding: 10px 20px;
+    background-color: gray;
+    border: none;
+    border-radius: 20%;
+margin-left: 10px;    
+   
+}
+
+#in input{
+    color: black;
+    margin-top: 20px;
+    padding: 10px 10px;
+    width: 30%;
+    border-radius: 10%;
+    display: flex;
+    justify-content: space-between;
+    background-color: burlywood;
+    border: none;
+}
+#in:hover input{
+    background-color: rgb(168, 149, 185);
+    transition: all ease 0.4;
+    color: black;
+}
+#hero h4{
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+}
+#type{
+    width: 100%;
+    height: 20%;
+}
+#type input{
+    width: 90%;
+    height: 60px;
+    display: flex;
+    justify-self: center;
+    text-align: center;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: cadetblue;
+    padding: 30px 30px;
+}
+
+.card{
+    height: 350px;
+    width: 350px;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    
+}
+.card img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: bottom;
+    border-radius: 20px;
+
+}
+.bottom{
+        height: 40%;
+        width: 100%;
+        background-color: rgb(235, 6, 6);
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: linear-gradient(transparent,rgb(87, 31, 160));
+        bottom: -40%;
+        transition: all ease 0.3s;
+}
+.bottom h1{
+    color: rgb(253, 249, 249);
+    padding: 20%;
+
+}
+.card:hover .bottom{
+    bottom: 0;
+}
