@@ -60,7 +60,6 @@ img {
 
 
 button {
-    color: #40916c;
     display: flex;
     align-items: center;
     justify-self: center;
@@ -68,6 +67,10 @@ button {
     padding: 10px 20px;
     background-color: rgb(164, 235, 240);
 }
+button:hover {
+    background-color: #2b7bcf; 
+    transform: scale(1.05); 
+  }
 
 #card2 p {
     text-align: center;
