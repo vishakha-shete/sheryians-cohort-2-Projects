@@ -1,24 +1,36 @@
+@font-face {
+    font-family: dribble;
+    src: url(https://cdn.dribbble.com/assets/mona-sans/Mona-Sans-870dff5a10221ba7d01cc47eca10d0b2f911bd4196bb941985490bd8c7363cd9.woff2
+    );
+    src: url(https://cdn.dribbble.com/assets/wf-visual-sans/WFVisualSans-RegularText-46461986901f80620e484e70aa8cbb90ede25a01351d464819a4e47a3f38ea43.woff2
+    );
+
+}
 *{
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+    font-family: dribble;
 }
 html,body{
     height: 100%;
     width: 100%;
-    background-color: rgb(233, 230, 227);
+    background-color: #FFFFFF;
 
 }
 #nav{
      width: 100%;
-     height: 40px;
-     background-color: rgb(233, 230, 227);
+     height: 70px;
+     padding-top: 20px;
+
+     background-color: #FFFFFF;
      display: flex;
      gap: 30px;
 }
 #nav h1{
-
+font-style: italic;
       padding: 10px 30px;
+      font-weight: 300;
       font-size: 30px;
       display: flex;
       align-items: center;
@@ -29,16 +41,25 @@ html,body{
     font-weight: 500%;
     display: flex;
     align-items: center;
+    justify-content: center;
     text-decoration: none;
 
 }
 #nav button{
     display: flex;
     align-items: center;
-    justify-self: end;
     background-color: blueviolet;
-    border-radius: 10px;
-    
+    border-radius: 20px; 
+    padding: 10px 15px;
+    margin-top: 5px;
+    margin-left: 30%;
+    margin-right: 0%;
+    border: none;
+    color: white;
+}
+#nav button:nth-of-type(2) {
+    margin-left: 0;
+    background-color: #555;
 }
 #hero{
     width: 100%;
@@ -58,38 +79,65 @@ html,body{
 #hero h2{
     width: 30%;
     font-size: 50px;
-padding: 30px;
 bottom: 50%;
+padding-left: 30px;
+
 
 }
 #hero p{
     width: 30%;
     font-size: 20px;
     align-items: start;
+    padding-left: 30px;
+
 
 }
 #hero button{
     margin-top: 20px;
-    color: black;
+    color: rgb(10, 8, 8);
     padding: 10px 20px;
-    background-color: gray;
+    background-color:  #d4cce7;
     border: none;
-    border-radius: 20%;
-margin-left: 10px;    
-   
+    border-radius: 20px; 
+    margin-left: 10px;     
+    padding-left: 30px;
+  
+}
+#hero button:nth-of-type(1) {
+    background-color: #555;
+    color: #FFFFFF;
+
 }
 
-#in input{
-    color: black;
+#in {
+    position: relative; 
+    width: 40%; 
+    display: inline-block;
     margin-top: 20px;
-    padding: 10px 10px;
-    width: 30%;
-    border-radius: 10%;
-    display: flex;
-    justify-content: space-between;
-    background-color: burlywood;
-    border: none;
+    margin-left: 10px;
 }
+
+#search-input {
+    color: black;
+    padding: 15px 20px;
+    width: 100%;
+    border-radius: 50px;  
+    background-color: rgb(231, 213, 189);
+    border: none;
+    padding-right: 45px;
+}
+
+.search-icon {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #555; 
+    pointer-events: none; 
+    font-size: 1.2em;
+}
+
+
 #in:hover input{
     background-color: rgb(168, 149, 185);
     transition: all ease 0.4;
@@ -100,9 +148,25 @@ margin-left: 10px;
     display: flex;
     align-items: center;
 }
+
 #type{
     width: 100%;
     height: 20%;
+    position: relative; 
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 10px;
+    
+}
+#type button{
+    position: absolute;
+    left: 10%;
+    top: 13%;
+    padding: 7px 15px;
+    border-radius: 20px;
+    border: none;
+
+    
 }
 #type input{
     width: 90%;
@@ -110,21 +174,27 @@ margin-left: 10px;
     display: flex;
     justify-self: center;
     text-align: center;
+    border-radius: 20px;
+    background-color: #e9d6d6;
+    border: none;
+
 }
 #main{
-    height: 100%;
     width: 100%;
-    background-color: cadetblue;
+    background-color: rgb(225, 239, 240);
     padding: 30px 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    grid-auto-rows: min-content; 
+    gap: 20px;
 }
 
 .card{
-    height: 350px;
-    width: 350px;
-    background-size: cover;
+    height: 250px;
+    width: 100%; 
     position: relative;
     overflow: hidden;
-    
+    top: initial; 
 }
 .card img{
     height: 100%;
@@ -134,6 +204,7 @@ margin-left: 10px;
     border-radius: 20px;
 
 }
+
 .bottom{
         height: 40%;
         width: 100%;
@@ -142,15 +213,22 @@ margin-left: 10px;
         display: flex;
         align-items: center;
         justify-content: space-between;
-        background: linear-gradient(transparent,rgb(87, 31, 160));
+        background: linear-gradient(transparent,rgb(11, 11, 12));
         bottom: -40%;
         transition: all ease 0.3s;
 }
 .bottom h1{
-    color: rgb(253, 249, 249);
-    padding: 20%;
+    color: rgb(252, 250, 250);
+    padding: 10%;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
 
 }
 .card:hover .bottom{
     bottom: 0;
 }
+.card i{
+    padding-left: 30px;
+}
+
