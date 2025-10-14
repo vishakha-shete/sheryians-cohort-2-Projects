@@ -1,0 +1,103 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+ }
+ 
+ html,
+ body {
+    height: 100%;
+    width: 100%;
+ 
+ }
+ 
+ main {
+    height: 100%;
+    width: 100%;
+    background-color: #ebd3d3;
+ 
+ }
+ 
+ #nav {
+    width: 90%;
+    height: 70px;
+    margin-left: 40px;
+    margin-top: 30px;
+    background-color: #D1D5D6;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 50px;
+    gap: 30px;
+ }
+ 
+ #nav img {
+    height: 40px;
+    width: 40px;
+    margin-top: 5px;
+    border-radius: 20px;
+ }
+ 
+ #nav h1 {
+    font-style: italic;
+    font-size: 30px;
+    font-weight: 40px;
+ 
+ }
+ 
+ #nav a {
+    color: black;
+    font-weight: 500%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+ 
+ }
+ 
+ #nav button {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    font-size: large;
+    border-radius: 20px;
+    padding: 10px 15px;
+    margin-top: 5px;
+    margin-left: 10%;
+    border: solid 2px #0260FE;
+    color: rgb(12, 10, 10);
+ }
+ 
+ #nav button:nth-of-type(2) {
+    margin-left: 0;
+    background-color: #0260FE;
+ }
+ 
+ #nav button:hover {
+    background-color: #5f8996;
+    color: #FFFFFF;
+ 
+ }
+
+ #hero{
+    height: 400px;
+    width: 90%;
+    margin-left: 70px;
+    margin-top: 30px;
+    height: 600px;
+    display: flex;
+ }
+
+ #hero h1{
+    width: 50%;
+    font-size: 60px;
+
+
+ }
+
+ #hero img{
+    height: 400px;
+    width: 800px;
+    border-radius: 30px;
+
+ }
