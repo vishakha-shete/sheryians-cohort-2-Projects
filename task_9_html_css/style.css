@@ -14,20 +14,26 @@
  main {
     height: 100%;
     width: 100%;
-    background-color: #ebd3d3;
+    background-color: #d7f5d5;
  
+ }
+ NAV{
+   background-color: #5f8996;
+   width: 90%;
+   margin-left: 50px;
+   border-radius: 40PX;
+
  }
  
  #nav {
     width: 90%;
     height: 70px;
     margin-left: 40px;
-    margin-top: 30px;
-    background-color: #D1D5D6;
+    background-color: #5f8996;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    border-radius: 50px;
+    border-radius: 10px;
     gap: 30px;
  }
  
@@ -47,7 +53,6 @@
  
  #nav a {
     color: black;
-    font-weight: 500%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -64,23 +69,29 @@
     padding: 10px 15px;
     margin-top: 5px;
     margin-left: 10%;
-    border: solid 2px #0260FE;
+    border: solid 2px #060607;
     color: rgb(12, 10, 10);
  }
  
  #nav button:nth-of-type(2) {
     margin-left: 0;
-    background-color: #0260FE;
+    background-color: #58ebeb;
  }
  
  #nav button:hover {
-    background-color: #5f8996;
-    color: #FFFFFF;
+    background-color: #ad9bf1;
  
+ }
+ i{
+   width: 30px;
+   background-color: #080808;
+   color: #FFFFFF;
+   border-radius: 10px;
+   margin-left: 5px;
  }
 
  #hero{
-    height: 400px;
+    height: 100%;
     width: 90%;
     margin-left: 70px;
     margin-top: 30px;
@@ -96,8 +107,77 @@
  }
 
  #hero img{
-    height: 400px;
-    width: 800px;
+    height: 350px;
+    width: 660px;
     border-radius: 30px;
 
  }
+
+ #hero button{
+   padding: 10px 15px;
+   margin: 5px ;
+   border-radius: 20px;
+   
+ }
+
+ #hero button:nth-of-type(1) {
+    width: 60px;
+    height: 30px;
+    background-color: palevioletred;
+ }
+
+ #hero button:nth-of-type(2) {
+    background-color: #5f8996;
+    font-size: 20px;
+ }
+ #hero button:nth-of-type(3) {
+    background-color: gray;
+    margin-left: 176px;
+ }
+ #hero button:nth-of-type(4) {
+   background-color: rgb(252, 185, 185);
+   border: none;
+}
+#hero button:hover {
+   background-color: #177c9b;
+   color: #FFFFFF;
+
+}
+h5{
+   width: 30%;
+   font-size: 20PX;
+   position: absolute;
+   left: 90px;
+   bottom: 3px;
+   top: 560px;
+}
+#image img{
+   height: 200px;
+   width: 300px;
+   position: absolute;
+   top: 470px;
+   left: 595px;
+   
+}
+
+#image2 img{
+   height: 200px;
+   width: 300px;
+   position: absolute;
+   top: 470px;
+   left: 920px;
+   
+}
+
+#name{
+   position: absolute;
+   font-size: 20px;
+   top: 650px;
+   left: 90px;
+}
+#name a{
+   margin-right: 20px;
+   color: black;
+   
+
+}
