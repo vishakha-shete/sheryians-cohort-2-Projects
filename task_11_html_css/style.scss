@@ -1,0 +1,87 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+@mixin flex-center() {
+    background-size: cover;
+    margin: 10px;
+    border-radius: 30px;
+}
+
+main {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 60% 40%;
+    grid-template-areas: "nav right right right"
+        "nav hero1 hero2 hero3";
+
+
+    #nav {
+        background: url(https://i.pinimg.com/736x/a1/1c/d9/a11cd98e3dc5b380f9c9d99aa08e4ff1.jpg);
+        grid-area: nav;
+        @include flex-center;
+
+    }
+
+    #right {
+        background: url(https://media.istockphoto.com/id/1410978389/photo/young-beautiful-woman-traveler-enjoying-the-sunset-in-the-mountains-while-traveling-by-car.jpg?s=612x612&w=0&k=20&c=wfIcCdHWASH3oFVBe13ThQnZ6gtKVRh3MXB_Jcoi9dY=);
+        grid-area: right;
+        @include flex-center;
+
+
+
+    }
+
+    #hero1 {
+        background: url(https://media.istockphoto.com/id/1225035975/photo/beijing-fuxingmen-skyline.jpg?s=612x612&w=0&k=20&c=q2_MfQczTwO5_visWAyAeOoye-gVkTfbAdeBVyRO8ko=);
+        grid-area: hero1;
+        @include flex-center;
+
+
+
+    }
+
+    #hero2 {
+        background: url(https://media.istockphoto.com/id/907671144/photo/new-black-metallic-sedan-car-in-spotlight-modern-desing-brandless.jpg?s=612x612&w=0&k=20&c=21WCXCFFvFYtO9-0UiAhNH8xaC8p12IT9_dNHqm9klk=);
+        grid-area: hero2;
+        @include flex-center;
+
+
+
+    }
+
+    #hero3 {
+        background: url(https://media.istockphoto.com/id/1411240552/photo/flyover-view-image-evening-view-of-city-highway-flyover.jpg?s=612x612&w=0&k=20&c=BuWTh2koZP_XEzetBrLsIUUANncaUJspMbKKNrxla2c=);
+        grid-area: hero3;
+        @include flex-center;
+
+    }
+
+
+
+    #hero1:hover,
+    #right:hover,
+    #hero2:hover,
+    #hero3:hover,
+    #nav:hover {
+        transform: scale(1.02);
+        box-shadow: 0 10px 20px rgba(35, 15, 219, 0.5);
+        z-index: 10;
+        transition: all ease 0.5px;
+    }
+
+}
