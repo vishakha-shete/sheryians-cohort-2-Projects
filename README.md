@@ -1,142 +1,66 @@
-# sheryians-cohort-2-journey
-<<<<<<< HEAD
-Your local changes
-=======
-Remote changes
->>>>>>> origin/main
+<h1 align="center">🌟 Sheryians Cohort 2 Projects 🌟</h1>
 
-my journey and projects from sheryians cohort 2.0
-=======
-My complete learning journey through Sheryians Coding School Cohort 2 — documenting projects, notes, and progress in full-stack web development, DSA, and AI.
-
-
-
-
-
-# 🌟 Sheryians Cohort 2 Journey
-
-Welcome to my learning repository!  
-This repo documents my journey through **Sheryians Coding School Cohort 2**, where I’m learning to become a **job-ready full-stack developer** — combining web development, DSA, and AI.
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square" />
+  <img src="https://img.shields.io/badge/Language-HTML%2C%20CSS%2C%20JS-blue?style=flat-square" />
+  <img src="https://img.shields.io/badge/Framework-SCSS-orange?style=flat-square" />
+  <img src="https://img.shields.io/badge/Batch-Sheryians%20Cohort%202-purple?style=flat-square" />
+</p>
 
 ---
 
-## 📘 About the Program
+## 🧠 About the Repository  
+This repository contains all my hands-on **projects, assignments, and experiments** completed during my  
+**AI-Powered Web Development Journey** at **Sheryians Coding School (Cohort 2)** 💻  
 
-**Sheryians Cohort 2** is an intensive, hands-on program designed to help learners become industry-ready developers.  
-It covers everything from **HTML/CSS** fundamentals to **MERN stack**, **Data Structures & Algorithms in JavaScript**, and **AI-powered tools** — along with career guidance and aptitude training.
-
-**🔗 Official Site:**https://www.sheryians.com/
-
-### 💡 Program Highlights
-- 🧩 Full-stack Web Development (Frontend + Backend)
-- 🧠 Data Structures & Algorithms in JavaScript
-- 🤖 Generative AI & Multi-Agent Systems
-- 💼 Aptitude, Resume, and Interview Preparation
-- 🧑‍💻 Real-world Projects & Assignments
-- 🌐 Portfolio & GitHub Guidance
-- 🗓️ Live Sessions + Community Support on Discord
+Each project represents my consistent effort toward mastering **Frontend Development** through real-world tasks.
 
 ---
 
-## 🎯 My Learning Goals
-
-Through this cohort, I aim to:
-
-- Master **HTML, CSS, JavaScript, React, Node.js, Express, MongoDB**
-- Understand **core DSA concepts** and problem-solving with JavaScript
-- Build **end-to-end MERN applications**
-- Explore **AI integrations** and automation
-- Develop a strong **developer portfolio** and resume
-- Grow as a **consistent, self-driven learner**
+## 🚀 Featured Projects  
+| Project Name | Description | Tech Used |
+|---------------|-------------|------------|
+| 🍎 **Apple Homepage Clone** | Recreated Apple’s homepage using HTML, CSS & Flexbox | HTML, CSS |
+| 🎨 **Dribbble Layout** | Implemented creative UI using CSS Grid & SCSS | HTML, SCSS |
+| 📱 **Responsive Webpage** | Designed a fully responsive webpage using media queries | HTML, CSS |
+| 💳 **Card Layout Project** | Built modern cards using Flex-grow property | HTML, SCSS |
+| 🌐 **Portfolio Section** | Created a mini portfolio layout with animations | HTML, CSS, JS |
 
 ---
 
-## 📂 Repository Structure
+## 🧰 Tech Stack  
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=html,css,js,git,github,vscode" alt="Tech Stack Icons" />
+</p>
 
-| Folder | Description |
-|---------|-------------|
-| `/projects` | Mini and major projects built during the cohort |
-| `/notes` | Learning notes, code snippets, and resources |
-| `/assignments` | Homework, challenges, and coding exercises |
-| `/reflections` | Weekly progress logs and personal reflections |
-| `/resources` | Helpful materials, docs, and tutorials I used |
-
----
-
-## 🧠 Key Learnings So Far
-> _(You can update this section as you progress)_
-
-- ✅ Responsive Web Design fundamentals  
-- ✅ DOM manipulation & ES6+ JavaScript concepts  
-- ✅ React components, hooks, and state management  
-- 🚧 Building backend APIs with Node.js and Express  
-- 🚧 MongoDB, authentication, and deployment  
-- 🔄 DSA practice with arrays, recursion, and graphs  
-- 🧩 AI integrations and automation experiments  
+- **Frontend:** HTML5, CSS3, SCSS, JavaScript  
+- **Version Control:** Git & GitHub  
+- **Tools:** VS Code  
 
 ---
 
-## 🛠️ Tech Stack
-
-**Frontend:** HTML, CSS, JavaScript, React  
-**Backend:** Node.js, Express.js  
-**Database:** MongoDB  
-**Version Control:** Git & GitHub  
-**AI Tools:** LangChain, OpenAI API (as introduced in cohort)  
-**Other Tools:** VS Code, Postman, Netlify, Render
+## 💡 Key Learnings  
+- Writing clean, reusable, and responsive code  
+- Deep understanding of **Flexbox**, **Grid**, and **SCSS**  
+- Managing projects with **Git & GitHub**  
+- Building confidence through real projects & consistency 💪  
 
 ---
 
-## 🧭 Roadmap
-
-| Phase | Focus | Status |
-|--------|--------|--------|
-| Foundation | HTML, CSS, JS, Git & GitHub | ✅ Completed |
-| Intermediate | React, APIs, and JS DSA | 🔄 In Progress |
-| Advanced | Full-stack projects, AI, DevOps | ⏳ Upcoming |
-| Career Readiness | Aptitude, portfolio, mock interviews | ⏳ Upcoming |
+## 📸 Sneak Peek  
+> 🌈 *Each project reflects growth, creativity, and consistent learning throughout my web development journey.*
 
 ---
 
-## 🌱 Why I Created This Repo
+## 🌟 About Me  
+👩‍💻 **Vishakha Shete**  
+💼 Frontend Developer | 💻 Web Development Enthusiast | 🌱 Lifelong Learner  
 
-- To **track** my progress through the cohort  
-- To **document** my learnings, struggles, and wins  
-- To **share** code and insights with others on the same path  
-- To **build** a public portfolio for recruiters and peers  
-
----
-
-## 🧩 How to Use
-
-1. Browse the folders (projects, notes, etc.)
-2. Each folder has its own `README.md` for setup instructions.
-3. Run the code locally (if applicable) and explore.
-4. Learn, fork, and contribute if you’d like!
+📍 **India**  
+🔗 [GitHub Profile](https://github.com/vishakha-shete)
 
 ---
 
-## 💬 Reflections
-
-> “It’s not just about learning to code — it’s about learning how to learn consistently.”  
-> — My mantra during the Cohort journey 💪
-
----
-
-## 🤝 Connect with Me
-
-Let’s connect and grow together!  
-💼 **LinkedIn:**www.linkedin.com/in/vishakha-shete   
-🐙 **GitHub:** https://github.com/vishakha-shete  
-
----
-
-## 🏁 Conclusion
-
-This repository represents my evolution as a developer through **Sheryians Cohort 2** — from the basics to advanced AI-powered full-stack projects.  
-It’s a space to learn, build, and inspire. 🚀  
-
----
-
-⭐ **If you find this repo useful, consider giving it a star!**
->>>>>>> c382a2ed4a6a10ebd96a0a83263631a4507abebd
+<p align="center">
+  <b>⭐ Keep Learning • Keep Building • Keep Growing ⭐</b>
+</p>
