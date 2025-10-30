@@ -49,6 +49,12 @@ main {
   /* ============================
      VIEW 3
   ============================ */
+  /* ============================
+     VIEW 4
+  ============================ */
+  /* ============================
+     VIEW 4
+  ============================ */
 }
 main section.view1 {
   width: 100%;
@@ -145,7 +151,7 @@ main section.view3 .top img {
 }
 main section.view3 .bottom {
   width: 100%;
-  background-color: rgb(75, 74, 74);
+  background-color: #1E1E1E;
   border-radius: 0.7rem;
   padding: 1.5rem;
   display: flex;
@@ -175,6 +181,104 @@ main section.view3 .bottom .paragraph p {
 main section.view3 .bottom > p {
   text-transform: uppercase;
 }
+main section.view4 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 2rem;
+}
+main section.view4 .top {
+  width: 100%;
+}
+main section.view4 .top img {
+  width: 100%;
+  border-radius: 0.7rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main section.view4 .bottom {
+  width: 100%;
+  background-color: #1E1E1E;
+  border-radius: 0.7rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.9rem;
+}
+main section.view4 .bottom p {
+  font-size: 1rem;
+  opacity: 0.9;
+  font-weight: 300;
+}
+main section.view4 .bottom .text h1 {
+  padding-top: 10rem;
+  text-transform: uppercase;
+  font-weight: 200;
+  font-size: 2.5rem;
+}
+main section.view4 .bottom .paragraph {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+main section.view4 .bottom .paragraph p {
+  font-weight: 300;
+  line-height: 1.6;
+  opacity: 0.55;
+}
+main section.view4 .bottom > p {
+  text-transform: uppercase;
+}
+main section.view5 {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  display: flex;
+  gap: 2rem;
+  width: 100%;
+  padding: 1rem;
+}
+main section.view5 .card {
+  width: 100%;
+  background-image: url(./img/6th.webp);
+  background-size: cover;
+  aspect-ratio: 1/1;
+  border-radius: 0.7rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: space-between;
+  padding: 1rem;
+}
+main section.view5 .card .icon, main section.view5 .card .bottom {
+  background-color: rgba(124, 115, 115, 0.375);
+  background-clip: blur(1px);
+  border: 1px solid white;
+  border-radius: 0.7rem;
+  padding: 0.5rem;
+}
+main section.view5 .card .top {
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-end;
+}
+main section.view5 .card .icon {
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 50%;
+}
+main section.view5 .card .bottom {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 1rem;
+}
+main section.view5 .card .bottom p {
+  text-transform: uppercase;
+}
+main section.view5 .card .view5 > card {
+  background-image: url(img/10th.webp);
+}
 
 /* ===================================
    Responsive Design (min-width: 900px)
@@ -184,6 +288,7 @@ main section.view3 .bottom > p {
     /* ====== VIEW 1 ====== */
     /* ====== VIEW 2 ====== */
     /* ====== VIEW 3 ====== */
+    /* ====== VIEW 4 ====== */
   }
   main section.view1 {
     flex-direction: row;
@@ -234,5 +339,31 @@ main section.view3 .bottom > p {
   main section.view3 .bottom .paragraph p {
     font-size: 1rem;
     line-height: 1.5;
+  }
+  main section.view4 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 2rem;
+  }
+  main section.view4 .top,
+  main section.view4 .bottom {
+    width: 50%;
+  }
+  main section.view4 .bottom {
+    justify-content: space-between;
+  }
+  main section.view4 .bottom .paragraph {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }
+  main section.view4 .bottom .paragraph p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  main section.view5 {
+    flex-direction: row;
   }
 }/*# sourceMappingURL=style.css.map */
