@@ -78,12 +78,14 @@ for (i = 1; i < 11; i++) {
 
 //case-1
 
-let num = +prompt("enter your number");{
-if(prompt === 12){
-    console.log("it is 12");}
-else
-{ console.log("it is not 12");
-}}
+let num = +prompt("enter your number"); {
+    if (prompt === 12) {
+        console.log("it is 12");
+    }
+    else {
+        console.log("it is not 12");
+    }
+}
 
 
 //case-2
@@ -97,12 +99,14 @@ console.log(typeof num);
 
 //case-3
 
-let number = +prompt("enter your number");{
-    if(number >=0){
-        console.log("positive");}
-    else
-    { console.log("negative");
-    }}
+let number = +prompt("enter your number"); {
+    if (number >= 0) {
+        console.log("positive");
+    }
+    else {
+        console.log("negative");
+    }
+}
 
 
 // 7. Ask user’s age and check if eligible to vote
@@ -111,44 +115,44 @@ let number = +prompt("enter your number");{
 
 //case-1
 
-let Age = +prompt("enter your age");{
-    if( Age >= 18){
+let Age = +prompt("enter your age"); {
+    if (Age >= 18) {
         console.log("eligible");
     }
-    else{
+    else {
         console.log("not eligible");
     }
- }
+}
 
 
- //case-2
+//case-2
 
- let value = prompt("enter your age");
- if (value === null){
+let value = prompt("enter your age");
+if (value === null) {
     console.error("you canceled it");
- }else{
-    if (age.trim() === ""){
+} else {
+    if (age.trim() === "") {
         console.error("write properly");
     }
 
-    age = Number (value.trim());
-        if( isNaN (age)){
-            console.error("write numbers");
-        }
-        else{
-         console.log("confiem ye number hain");
-        }
-
-
+    age = Number(value.trim());
+    if (isNaN(age)) {
+        console.error("write numbers");
     }
+    else {
+        console.log("confiem ye number hain");
+    }
+
+
+}
 
 
 
 // // 8. Print multiplication table of 5
 // // Use loop to print 5 × 1 to 5 × 10.
 
-for (i=1;i<11; i++){
-    console.log(`5 * ${i} = ${5*i}`)
+for (i = 1; i < 11; i++) {
+    console.log(`5 * ${i} = ${5 * i}`)
 
 }
 
@@ -157,13 +161,13 @@ for (i=1;i<11; i++){
 
 //case-1
 
-for(i=1; i<16; i++){
-    if(i>8)
-    console.log(i);
+for (i = 1; i < 16; i++) {
+    if (i > 8)
+        console.log(i);
 }
 
 
-//case-2
+// //case-2
 
 let count = 0;
 for (i = 1; i < 16; i++) {
@@ -174,33 +178,60 @@ console.log(count);
 
 
 
-// 10. Ask user for password and print access status
-// Hardcoded correct password. Compare with user input.
+// // 10. Ask user for password and print access status
+// // Hardcoded correct password. Compare with user input.
 
-let password = 1234;
-prompt("enter your password");{
-if(password === 1234){
-    console.log("matched");
-}
-else
-    console.log("missmatched")
+// let password = 1234;
+// prompt("enter your password"); {
+//     if (password === 1234) {
+//         console.log("matched");
+//     }
+//     else
+//         console.log("missmatched")
 
-}
+// }
 
 
 // // Level 2 – Slightly Tougher but Logical
 // // 11. Allow only 3 attempts to enter correct password
 // // If user gets it right early, stop. If not → “Account locked”
+//pahla prompt aayega agar galat hua to dusra aayega prompt sahi hua to stop
+//dusra prompt aayega agar galat hua to tisra aayega tisra sahi hua to stop
+//tisra prompt aayega agar galat hua to aayega acount stoped
+//while means tab tak chalo jab tak condition true na ho jaye compare to
+//for loop start end change
+
+//start let i=1;
+//while(end){
+//your code
+//change
+// }
+
+
+// let pass = prompt("tum muze password do");
+// while(true !== "stop"){
+//     pass = prompt("tum muze password do");
+//     console.log(pass);
+// }
+
+let attempts = 0;
+let pass ="vishakha";
+let password = prompt ("enter your password");
+while(password !== pass){
+
+};
+
 
 // // 12. Ask user for words until they type “stop”. Count how many times they typed “yes”
 // // Loop until "stop" is typed. Count "yes".
 
+
 // // 13. Print numbers divisible by 7 from 1 to 50
 // // Use modulo % and loop.
 
-for(i=1; i<=50; i++){
-    if(i%7 === 0)
-    console.log(i);
+for (i = 1; i <= 50; i++) {
+    if (i % 7 === 0)
+        console.log(i);
 }
 
 
@@ -212,3 +243,22 @@ for (i = 1; i <= 30; i++) {
         console.log(i);
     }
 }
+
+
+
+// 15. Keep asking number until user enters an even number
+// Use while loop. Stop only if input is even.
+
+// 16. Print numbers between two user inputs
+// Input start and end using prompt() → print all between.
+
+// 17. Print only first 3 odd numbers from 1 to 20
+// Use loop. Stop with break after 3 odd prints.
+
+// 18. Ask user 5 numbers. Count how many are positive
+// Use loop + condition + counter.
+
+// 19. ATM Simulator – Allow 3 withdrawals
+// Start with ₹1000 balance. Ask withdrawal amount 3 times.
+// If enough balance → deduct
+// Else → print “Insufficient balance”
