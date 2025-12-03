@@ -1,0 +1,186 @@
+:root {
+  --bg: #0f1724;
+  --panel: #0b1220;
+  --white-key: #f7f7f7;
+  --black-key: #111827;
+  --accent: #ef4444;
+}
+
+* {
+  box-sizing: border-box
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-family: Inter, system-ui, Segoe UI, Roboto, 'Helvetica Neue', Arial;
+  background: linear-gradient(180deg, #071126, #0d1b2b);
+  color: #e6eef8
+}
+
+main {
+  max-width: 920px;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: center
+}
+
+h1 {
+  font-size: 26px;
+  margin-bottom: 6px
+}
+
+.hint {
+  color: #9fb3d1;
+  margin-bottom: 18px;
+  font-size: 14px
+}
+
+.piano {
+  margin: 18px auto 10px;
+  position: relative;
+  width: 860px;
+  height: 300px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 0;
+  user-select: none;
+}
+
+/* White keys layout */
+.piano .key.white {
+  width: 66px;
+  height: 260px;
+  background: linear-gradient(#fff, #f3f3f3);
+  border: 1px solid #ccc;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 10px;
+  margin-right: 6px;
+  cursor: pointer;
+  transition: transform .08s ease, box-shadow .08s ease;
+  z-index: 1;
+}
+
+.piano .key.white:active,
+.piano .key.white.active {
+  transform: translateY(6px);
+  box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+/* Black keys (positioned absolutely) */
+.piano .key.black {
+  position: absolute;
+  width: 46px;
+  height: 160px;
+  background: linear-gradient(#222, #000);
+  border-radius: 6px;
+  color: #fff;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 6px;
+  cursor: pointer;
+  transition: transform .08s ease, box-shadow .08s ease;
+  z-index: 3;
+}
+
+/* label styles inside keys */
+.key .label {
+  position: absolute;
+  top: 6px;
+  left: 8px;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.black .label {
+  color: #fff
+}
+
+.key .note {
+  font-size: 13px;
+  color: #333;
+}
+
+/* place black keys over the white keys — manual positioning */
+.piano .key.black[data-note="C#4"] {
+  left: 46px;
+}
+
+.piano .key.black[data-note="D#4"] {
+  left: 118px;
+}
+
+.piano .key.black[data-note="F#4"] {
+  left: 250px;
+}
+
+.piano .key.black[data-note="G#4"] {
+  left: 322px;
+}
+
+.piano .key.black[data-note="A#4"] {
+  left: 394px;
+}
+
+.piano .key.black[data-note="C#5"] {
+  left: 526px;
+}
+
+.piano .key.black[data-note="D#5"] {
+  left: 598px;
+}
+
+.piano .key.black:active,
+.piano .key.black.active {
+  transform: translateY(6px) scale(.98);
+  box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.25);
+}
+
+/* small responsive adjustments */
+@media (max-width:920px) {
+  .piano {
+    transform: scale(.7);
+    transform-origin: center;
+    width: 700px
+  }
+}
+
+@media (max-width:700px) {
+  .piano {
+    transform: scale(.55);
+    width: 600px
+  }
+}
+
+/* controls */
+.controls {
+  margin-top: 18px;
+  display: flex;
+  gap: 18px;
+  align-items: center;
+  justify-content: center;
+  color: #cfe6ff
+}
+
+.controls label {
+  font-size: 14px
+}
+
+.controls select,
+.controls input[type="range"] {
+  margin-left: 8px
+}
+
+footer {
+  margin-top: 18px;
+  color: #9fb3d1;
+  font-size: 13px
+}
