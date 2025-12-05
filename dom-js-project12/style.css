@@ -67,7 +67,6 @@ main .all-reels .reel {
   position: relative;
   width: 100%;
   position: relative;
-  background-color: lightblue;
   border-radius: 10px;
 }
 main .all-reels .reel video {

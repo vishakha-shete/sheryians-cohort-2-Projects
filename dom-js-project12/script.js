@@ -8,7 +8,7 @@ const reels = [
     comment: ["Awesome!", "Nice video 🔥"],
     caption: "Enjoying the sunset vibes 🌅",
     video: "./videos/video-1.mp4",
-    userProfile: "https://example.com/profiles/john.jpg",
+    userProfile: "https://i.pinimg.com/736x/14/d1/5b/14d15ba025fba4da65e129d5a6b12c70.jpg",
     shareCount: 12,
     isFollowed: false
   },
@@ -21,7 +21,7 @@ const reels = [
     comment: ["Beautiful!", "Amazing shot 😍"],
     caption: "Travel diaries ✈️✨",
     video: "./videos/video-2.mp4",
-    userProfile: "https://example.com/profiles/emma.jpg",
+    userProfile: "https://i.pinimg.com/1200x/dc/49/6c/dc496ccf4b95a19ee852239132a032dd.jpg",
     shareCount: 45,
     isFollowed: true
   },
@@ -34,7 +34,7 @@ const reels = [
     comment: ["Motivational 💪", "Let's go!"],
     caption: "Morning workout grind!",
     video: "./videos/video-3.mp4",
-    userProfile: "https://example.com/profiles/guru.jpg",
+    userProfile: "https://i.pinimg.com/736x/6a/ef/32/6aef3230d8c16fbe9447b7303ad7ebb3.jpg",
     shareCount: 9,
     isFollowed: false
   },
@@ -47,7 +47,7 @@ const reels = [
     comment: ["Recipe pls!", "Looks delicious 🤤"],
     caption: "Today's special: Pasta Alfredo 🍝",
     video: "./videos/video-4.mp4",
-    userProfile: "https://example.com/profiles/chef.jpg",
+    userProfile: "https://i.pinimg.com/736x/f6/45/d8/f645d806e8edc12ca2e1cf302207cb6f.jpg",
     shareCount: 17,
     isFollowed: true
   },
@@ -60,7 +60,7 @@ const reels = [
     comment: ["Need more info!", "Tech is evolving fast"],
     caption: "New gadget review 🔌",
     video: "./videos/video-5.mp4",
-    userProfile: "https://example.com/profiles/tech.jpg",
+    userProfile: "https://i.pinimg.com/736x/8e/16/80/8e1680cd0e8051211e00cf752e20ee77.jpg",
     shareCount: 30,
     isFollowed: false
   },
@@ -73,7 +73,7 @@ const reels = [
     comment: ["Slayed 😍", "Fashion queen!"],
     caption: "OOTD 💖✨",
     video: "./videos/video-6.mp4",
-    userProfile: "https://example.com/profiles/diva.jpg",
+    userProfile: "https://i.pinimg.com/736x/f6/45/d8/f645d806e8edc12ca2e1cf302207cb6f.jpg",
     shareCount: 65,
     isFollowed: true
   },
@@ -86,7 +86,7 @@ const reels = [
     comment: ["So calming 😌", "Nature ❤️"],
     caption: "Nature never disappoints 🌿",
     video: "./videos/video-7.mp4",
-    userProfile: "https://example.com/profiles/nature.jpg",
+    userProfile: "https://i.pinimg.com/736x/d5/7d/69/d57d6979c38a240ab83ad8b0e5c2a25a.jpg",
     shareCount: 13,
     isFollowed: false
   },
@@ -99,7 +99,7 @@ const reels = [
     comment: ["Beast mode! 😤", "Insane power!"],
     caption: "Supercar of the year 🏎️💨",
     video: "./videos/video-8.mp4",
-    userProfile: "https://example.com/profiles/car.jpg",
+    userProfile: "https://i.pinimg.com/736x/d4/24/fe/d424fe114c8155154050aa816beb75de.jpg",
     shareCount: 100,
     isFollowed: true
   },
@@ -112,7 +112,7 @@ const reels = [
     comment: ["Fire 🔥🔥", "Great moves!"],
     caption: "Dance like no one's watching 💃",
     video: "./videos/video-9.mp4",
-    userProfile: "https://example.com/profiles/dance.jpg",
+    userProfile: "https://i.pinimg.com/736x/46/21/77/46217761417650d453578fc07d4181a7.jpg",
     shareCount: 22,
     isFollowed: false
   },
@@ -125,7 +125,7 @@ const reels = [
     comment: ["Beautiful artwork 🎨", "You're so talented!"],
     caption: "Sketching magic ✏️✨",
     video: "./videos/video-10.mp4",
-    userProfile: "https://example.com/profiles/art.jpg",
+    userProfile: "https://i.pinimg.com/736x/d5/7d/69/d57d6979c38a240ab83ad8b0e5c2a25a.jpg",
     shareCount: 27,
     isFollowed: true
   }
