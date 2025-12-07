@@ -1,0 +1,56 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    background-image:url(./Mahabharat.mp4) ;
+    background-size: cover;
+}
+
+#bgVideo{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;          /* Behind everything */
+}
+
+:root{
+    --x:400px;
+    --y:400px;
+}
+.box{
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(
+         150px at var(--x) var(--y),
+        rgba(255, 255, 255, 0.034) 0%,
+        rgba(0, 0, 0, 0.834) 80%,    
+        rgba(54, 54, 54, 0.932) 100%    
+    );
+    }
+    #soundBtn{
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        padding: 10px 18px;
+        font-size: 18px;
+        background: rgba(0,0,0,0.6);
+        color: white;
+        border: 2px solid white;
+        border-radius: 8px;
+        cursor: pointer;
+        z-index: 10;
+    }
+    
+    #soundBtn:active{
+        scale: .95;
+    }
+    
